@@ -1,25 +1,24 @@
 //
-//  RipplesShader.h
-//  ISH
+//  MosaicShader.h
 //
 //  Created by Koichiro Mori on 2016/02/18.
 //
 //
 
-#ifndef RipplesShader_h
-#define RipplesShader_h
+#ifndef MosaicShader_h
+#define MosaicShader_h
 
 #include <stdio.h>
 #include "ofMain.h"
 
 #define NUM_GRID_DIVISIOIN 6
 
-class RipplesShader
+class MosaicShader
 {
     
     public:
-        RipplesShader(){};
-        virtual ~RipplesShader(){};
+        MosaicShader(){};
+        virtual ~MosaicShader(){};
         void setup(int width, int height);
         void draw(ofTexture &target);
         void setupFbo(int width, int height);
@@ -32,4 +31,4 @@ class RipplesShader
 };
 
 
-#endif /* RipplesShader_h */
+#endif /* MosaicShader_h */

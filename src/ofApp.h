@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "RipplesShader.h"
+#include "MosaicShader.h"
 
 class ofApp : public ofBaseApp{
 
@@ -11,6 +11,6 @@ class ofApp : public ofBaseApp{
 		void draw();
     
     private:
-        RipplesShader shader;
+        MosaicShader shader;
         ofFbo fbo;
 };

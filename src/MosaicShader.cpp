@@ -1,25 +1,24 @@
 //
-//  RipplesShader.cpp
-//  ISH
+//  MosaicShader.cpp
 //
 //  Created by Koichiro Mori on 2016/02/18.
 //
 //
 
-#include "RipplesShader.h"
+#include "MosaicShader.h"
 
 
 //--------------------------------------------------------------
-void RipplesShader::setup(int width, int height)
+void MosaicShader::setup(int width, int height)
 {
-    shader.load("Ripples");
+    shader.load("Mosaic");
     fbo.allocate(width, height);
     
     this->setupFbo(width, height);
 }
 
 //--------------------------------------------------------------
-void RipplesShader::draw(ofTexture &target)
+void MosaicShader::draw(ofTexture &target)
 {
     ofClear(0, 0, 0, 0);
     fbo.begin();
@@ -58,7 +57,7 @@ void RipplesShader::draw(ofTexture &target)
 
 
 //--------------------------------------------------------------
-void RipplesShader::setupFbo (int width, int height)
+void MosaicShader::setupFbo (int width, int height)
 {
     fbo.clear();
     
