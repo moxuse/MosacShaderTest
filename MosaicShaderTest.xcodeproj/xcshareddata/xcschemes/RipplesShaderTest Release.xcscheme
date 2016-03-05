@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "MosacShaderTest.app"
-               BlueprintName = "MosacShaderTest"
-               ReferencedContainer = "container:MosacShaderTest.xcodeproj">
+               BuildableName = "MosaicShaderTest.app"
+               BlueprintName = "MosaicShaderTest"
+               ReferencedContainer = "container:MosaicShaderTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,15 +42,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "MosacShaderTest.app"
-            BlueprintName = "MosacShaderTest"
-            ReferencedContainer = "container:MosacShaderTest.xcodeproj">
+            BuildableName = "MosaicShaderTest.app"
+            BlueprintName = "MosaicShaderTest"
+            ReferencedContainer = "container:MosaicShaderTest.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -64,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "MosacShaderTest.app"
-            BlueprintName = "MosacShaderTest"
-            ReferencedContainer = "container:MosacShaderTest.xcodeproj">
+            BuildableName = "MosaicShaderTest.app"
+            BlueprintName = "MosaicShaderTest"
+            ReferencedContainer = "container:MosaicShaderTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
